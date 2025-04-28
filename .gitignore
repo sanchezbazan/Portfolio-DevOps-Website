@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.pyc
+
+# Poetry virtualenvs (local)
+.poetry/
+
+# Django
+*.log
+db.sqlite3
+staticfiles/
+media/
+
+# Environment Variables
+.env
+.env.*
+
+# VSCode Settings
+.vscode/
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Docker
+*.pid
+docker-compose.override.yml
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+*.swp
