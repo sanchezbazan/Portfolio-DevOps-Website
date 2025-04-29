@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+*.pyc
+
+# Poetry
+.poetry/
+poetry.lock
+
+# Django
+*.log
+db.sqlite3
+staticfiles/   # Ignore generated staticfiles if using collectstatic
+media/         # User-uploaded media (local dev)
+local_settings.py  # Optional for local-only settings
+
+# Environment Variables
+.env
+.env.*
+
+# VSCode Settings
+.vscode/
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Docker
+*.pid
+docker-compose.override.yml
+docker-compose*.local.yml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.whl
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Git / Editor backup files
+*.swp
+*.swo
+
+# Pytest / coverage
+.coverage
+htmlcov/
+pytest_cache/

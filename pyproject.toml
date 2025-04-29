@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "portfolio"
+version = "0.1.0"
+description = "My Portfolio Website"
+authors = ["Brayan Sanchez Bazan <brayan@brayanbazan.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.2"
+djangorestframework = "^3.16.0"
+boto3 = "^1.38.3"
+python-dotenv = "^1.1.0"
+daphne = "^4.1.2"
+channels = {extras = ["daphne"], version = "^4.2.2"}
+psycopg = {extras = ["binary"], version = "^3.2.6"}
+whitenoise = "^6.9.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
